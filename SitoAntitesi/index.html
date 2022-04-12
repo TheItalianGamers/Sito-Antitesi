@@ -1,0 +1,72 @@
+<html lang="it">
+    <head>
+        <title>GREENPEACE</title>
+         <link rel="stylesheet" href="css/Style.css">
+         <script src="scripts/Script.js"></script>
+         <!-- https://www.greenpeace.org/italy/storia/13013/se-ce-il-riscaldamento-globale-allora-perche-fa-cosi-freddo/?gclid=EAIaIQobChMI7YHOiM6G9wIVmud3Ch3JowN-EAAYAiAAEgID9fD_BwE -->
+        <!-- Scaletta per ricerca:
+            * Storia di GreenPeace
+            * Riscaldamento globale: argomentazioni + antitesi
+            * Non ti scordar di me (Decalogo, cioe' cosa possiamo fare nel nostro piccolo)
+            * Conclusioni + link per Greg_The_Tumberg
+        -->
+    </head>
+    <body vlink="green" link="green" background="immagini/sfondo.jpg">
+
+        <div class="container">
+            <div class="popup" id="popup">
+                <img src="immagini/Riciclo.jpg"/>
+                <h2>SITO CONCEPITO DA:</h2>
+                <p>LUCA GILARDETTI</p>
+                <p>DANIELE GUIDETTI</p>
+                <p>MIRKO MALGAROTTI</p>
+                <p>LORENZO PELLEGRINELLI</p>
+                <button type="button" onclick="closePopup()">OK</button>
+            </div>
+        </div>
+
+        <nav>
+            <b><h2><a target="_blank" href="https://www.greenpeace.org/italy/storia/13013/se-ce-il-riscaldamento-globale-allora-perche-fa-cosi-freddo/?gclid=EAIaIQobChMI7YHOiM6G9wIVmud3Ch3JowN-EAAYAiAAEgID9fD_BwE">GREENPEACE</a></h2></b>
+            <a href="./Storia.html" target="_blank"><button><i> Storia </i> </button></a>
+            <a href="./Antitesi.html" target="_blank"><button><i> Il problema</i> </button></a>
+            <a href="./Decalogo.html" target="_blank"><button><i>Il decalogo</i> </button></a>
+            <a href="./gioco.html" target="_blank"><button><i>Gioco</i> </button></a>
+        </nav>
+
+        <p>Immagini di Greenpeace: </p>
+
+ <button class="freccette" onclick="sinistra()" OnMouseOver=" this.innerHTML = '←' " OnMouseOut=" this.innerHTML = '<' " style="margin-right: 0;"> < </button>
+	<image id="immagine" align="middle" src="immagini/immaginiCheScorrono/Immagine1.png" width="500" hspace="0" border="5" ></image>
+ <button class="freccette" onclick="destra()" OnMouseOver=" this.innerHTML = '→' " OnMouseOut=" this.innerHTML = '>' " style="margin-left: 0;"> > </button>
+        
+<footer>
+
+	<button class="end" style=" margin: 5px 5px;" onclick="openPopup()" > Informazioni </button>
+    <button class="end" style=" margin: 5px 5px;" Onclick="alert('Il prodotto è registrato sotto il marchio ®The Italian Gamers: è vietato copiare o riutilizzare gli elementi della pagina per fini non personali da parte di terzi, se non per ESCLUSIVA autorizzazione dei produttori.')"> Copyright </button>
+
+<marquee> <p class="tig">
+  <a href="http://185.25.206.246/" target="_blank"> <font color="green"> The </font> <font color="white"> Italian </font> <font color="red"> Gamers </font></a> <sup>TM</sup> Production.
+
+<br>||<b> Cliccare sulla scritta se si vuole andare al sito ufficiale. </b> ||</button>  </marquee>
+</p>
+</footer>
+       
+</body>
+
+<script>
+
+    let popup = document.getElementById("popup");
+
+    function openPopup() {
+
+        popup.classList.add("open-popup");       /*AGGIUNGE LE CARATTERISTICHE DELLA CLASSE OPENPOPUP*/
+
+    }
+
+    function closePopup() {
+        popup.classList.remove("open-popup");
+    }
+
+</script>
+
+</html>

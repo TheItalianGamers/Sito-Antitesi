@@ -1,0 +1,41 @@
+button{
+    padding:10px;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    border: 0px solid white;
+    text-align: justify;
+    text-decoration: none;
+    background-color:rgb(39, 37, 37);
+    color:white;
+    position: absolute;
+    top:10px;
+    right:10px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color:white;
+    color:black;
+}
+
+body{
+    background: #4A4A4B;
+}
+
+iframe{
+    position: absolute; 
+    clip:rect(50px,1100px,770px,0px); 
+    left: 17%; 
+    top: 4%;
+}
+
+h1{
+    text-align: center;
+    font: 30px "Charter Bd BT";
+    font-size:35pt;
+    font: bold;
+    font-family:"Impact regular";
+    margin-right: 100px;
+    color:rgb(12, 150, 12);
+}
