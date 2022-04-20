@@ -1,4 +1,4 @@
-const files  = [ "Immagine1.png" , "Immagine2.jpg" ];//Immagini da scorrere
+const files  = [ "Immagine1.jpg" , "Immagine2.jpg" , "Immagine3.jpg" , "Immagine4.jpg" , "Immagine5.jpg" , "Immagine6.jpg" , "Immagine7.jpg" , "Immagine8.jpg"];//Immagini da scorrere
 const intervallo = 15000;//Millisecondi di intervallo per cambio immagine
 
 const dir = "immagini/immaginiCheScorrono/";
