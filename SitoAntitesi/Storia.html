@@ -1,10 +1,120 @@
 <html>
     <head>
         <title>Storia</title>
-        <link rel="stylesheet" href="storia.css">
+        <link rel="stylesheet" href="css/storia.css">
     </head>
     <body>
-        <a href="index.html"><button>Indietro</button></a>
-        
+
+        <div class="container">
+            <div class="popup" id="popup">
+                <img src="immagini/Riciclo.jpg"/>
+                <h2>SITO CONCEPITO DA:</h2>
+                <p>LUCA GILARDETTI</p>
+                <p>DANIELE GUIDETTI</p>
+                <p>MIRKO MALGAROTTI</p>
+                <p>LORENZO PELLEGRINELLI</p>
+                <button type="button" onclick="closePopup()">OK</button>
+            </div>
+        </div>
+
+        <nav>
+            <b><h2><a href="https://www.greenpeace.org/italy/storia/13013/se-ce-il-riscaldamento-globale-allora-perche-fa-cosi-freddo/?gclid=EAIaIQobChMI7YHOiM6G9wIVmud3Ch3JowN-EAAYAiAAEgID9fD_BwE">GREENPEACE</a></h2></b>
+            <a href="./index.html"><button><i> Home </i> </button></a>
+            <a href="./storia.html"><button class="active"><i> Storia </i> </button></a>
+            <a href="./Antitesi.html"><button><i> Problema</i> </button></a>
+            <a href="Decalogo/Decalogo.html"><button><i>Decalogo</i> </button></a>
+            <a href="./gioco.html"><button><i>Gioco</i> </button></a>
+        </nav>
+
+        <h1 id="titolo"> La storia di Greenpeace </h1>
+
+        <center><img src="./immagini/IMMAGINE_STORIA.jpg" class="img" width="80%" alt="immagine " ></center>
+
+<hr color="white" width="100%" size="2">
+<div class="contenuto">
+
+    <p id="intro">
+       <i>Greenpeace è un'organizzazione non governativa (ONC) ambientalista e pacifista fondata a Vancouver nel 1971; la sua azione si rivolge a tutto il mondo e spesso ha portato a conseguenze positive internazionali!
+        Le principali tematiche trattate da Greenpeace sono volte a tutelare la salute ed il benessere ambientale: attuando campagne contro il surriscaldamento globale, la difesa delle balene e dell'Antartico, l'abolizione di test nucleari, la pesca a strascico... e così via.
+        Greenpeace ha un impatto su scala globale e possiede uffici locati in ben 41 paesi del mondo, con sede ad Amsterdam.
+        L'azione di Greenpeace è quella di mediazione tra le istituzioni e gli enti governativi e l'opinione pubblica e si basa sull'adozione di tecniche di manifestazione con valori profondi e senza fini di lucro; Greenpeace è caratterizzata infatti da alcuni aspetti:
+        </i>
+    </p>
+     
+
+
+     <span> Modalità di azione </span>
+    <p>
+          <ul>    
+        <li><span> L'adozione del pacifismo: </span> cioè di una forma di manifestazione non violenta ma aperta al dialogo con la trasmissioni di messaggi in luoghi del mondo ritenuti importanti, rifacendosi alle teorie di Mahatma Gandhi</li>
+        <li><span> La scientificità dei reportage: </span> le documentazioni dell'organizzazione sono trasmesse previo accertamento scientifico indipendente da parte di specialisti che lavorano con l'organizzazione.</li>
+        <li><span> L'indipendenza: </span> l'organizzazione  è distaccata da enti esterni e da istituzioni, ma agisce in modo autonomo garantendo la veridicità dei propri dati e delle attività intraprese; inoltre non accetta finanziamenti esterni di alcun tipo tranne le donazioni (prescritte da 2,8 milioni di persone in tutto il mondo) senza iscrivere però soci o aderenti spontanei. Infine la tecnica di acquisizione dei dati avviene da parte di reporter e giornalisti affiliati i quali svolgono operazioni in tutto il mondo, tra cui le missioni dell'Antartico che hanno previsto la composizione di truppe e l'utilizzo di navi ammiraglie per destreggiarsi in queste località remote.</li>
+
+    </ul>
+</p>
+
+     <span> Campagne principali</span> 
+    <p>
+        Le campagne principali di Greenpeace riguardano:
+        <dl>
+            <dt> La difesa della fauna marittima. </dt>
+            <dd>
+                <ul>
+                    <li> Stop alla caccia alle balene</li>
+                    <li> Difesa dell'ecosistema dell'Antartico</li>  
+                </ul>
+            </dd>
+            <br>
+            <dt> Fermare i test nucleari nel mondo.</dt> 
+            <br>   
+            <dd> 
+                Al fine di propporre nuovi modelli di economia sostenibili basati sulle risorse rinnovabili
+                e smantellare il pericolo delle scorie radioattive che possono far collassare interi ecosistemi.
+            </dd>
+            <br>
+            <dt>  L'inquinamento dovuto alla plastica e il surriscaldamento globale</dt>
+            <br>
+            <dd>
+                L'inquinamento dei mari e degli oceani da microplastiche è uno dei fattori principali che uccide i pesci e
+                gli animali marini che vi abitano.
+                La sfida del riscaldamento globale è stata accolta con grande interesse da GreenPeace in quanto esso è dovuto
+                principalmente a cause antropiche ed è alla base di cambiamenti sui microclimi del Mondo (desertificazione, alluvioni e piogge
+                abbondanti etc.)
+            </dd>
+        </dl>
+
+    </p>
+
+
+
+</div>
+<footer>
+
+	<button class="end" style=" margin: 5px 5px;" onclick="openPopup()" > Informazioni </button>
+    <button class="end" style=" margin: 5px 5px;" Onclick="alert('Il prodotto è registrato sotto il marchio ®The Italian Gamers: è vietato copiare o riutilizzare gli elementi della pagina per fini non personali da parte di terzi, se non per ESCLUSIVA autorizzazione dei produttori.')"> Copyright </button>
+
+<marquee> <p class="tig">
+  <a href="http://185.25.206.246/" target="_blank"> <font color="green"> The </font> <font color="white"> Italian </font> <font color="red"> Gamers </font></a> <sup>TM</sup> Production.
+
+<br>||<b> Cliccare sulla scritta se si vuole andare al sito ufficiale. </b> ||</button>  </marquee>
+</p>
+</footer>
     </body>
+
+    <script>
+
+        let popup = document.getElementById("popup");
+    
+        function openPopup() {
+    
+            popup.classList.add("open-popup");       /*AGGIUNGE LE CARATTERISTICHE DELLA CLASSE OPENPOPUP*/
+    
+        }
+    
+        function closePopup() {
+            popup.classList.remove("open-popup");
+        }
+    
+    </script>
+    
 </html>

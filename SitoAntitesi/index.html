@@ -17,30 +17,32 @@
             <div class="popup" id="popup">
                 <img src="immagini/Riciclo.jpg"/>
                 <h2>SITO CONCEPITO DA:</h2>
-                <p>LUCA GILARDETTI</p>
-                <p>DANIELE GUIDETTI</p>
-                <p>MIRKO MALGAROTTI</p>
-                <p>LORENZO PELLEGRINELLI</p>
+                <p>LUCA GILARDETTI <br><strike>Il tipo</strike></p>
+                <p>DANIELE GUIDETTI<br> <strike>No comment</strike></p>
+                <p>MIRKO MALGAROTTI <br> <strike>Il completatore</strike></p>
+                <p>LORENZO PELLEGRINELLI <br> <strike>L'investito</strike></p>
                 <button type="button" onclick="closePopup()">OK</button>
             </div>
         </div>
 
         <nav>
-            <b><h2><a target="_blank" href="https://www.greenpeace.org/italy/storia/13013/se-ce-il-riscaldamento-globale-allora-perche-fa-cosi-freddo/?gclid=EAIaIQobChMI7YHOiM6G9wIVmud3Ch3JowN-EAAYAiAAEgID9fD_BwE">GREENPEACE</a></h2></b>
-            <a href="./Storia.html" target="_blank"><button><i> Storia </i> </button></a>
-            <a href="./Antitesi.html" target="_blank"><button><i> Il problema</i> </button></a>
-            <a href="Decalogo/Decalogo.html" target="_blank"><button><i>Il decalogo</i> </button></a>
-            <a href="./gioco.html" target="_blank"><button><i>Gioco</i> </button></a>
+            <b><h2><a href="https://www.greenpeace.org/italy/storia/13013/se-ce-il-riscaldamento-globale-allora-perche-fa-cosi-freddo/?gclid=EAIaIQobChMI7YHOiM6G9wIVmud3Ch3JowN-EAAYAiAAEgID9fD_BwE">GREENPEACE</a></h2></b>
+            <a href="./index.html"><button class="active"> <i>Home </i>  </button></a>
+            <a href="./Storia.html"><button><i> Storia </i> </button></a>
+            <a href="./Antitesi.html"><button><i> Problema</i> </button></a>
+            <a href="Decalogo/Decalogo.html"><button><i>Decalogo</i> </button></a>
+            <a href="./gioco.html"><button><i>Gioco</i> </button></a>
         </nav>
 
         <p>Immagini di Greenpeace: </p>
 
  <button class="freccette" onclick="sinistra()" OnMouseOver=" this.innerHTML = '←' " OnMouseOut=" this.innerHTML = '<' " style="margin-right: 0;"> < </button>
-	<image id="immagine" align="middle" src="immagini/immaginiCheScorrono/Immagine1.png" alt="AVVIARE RIPRODUZIONE IMMAGINI: Usare le Frecce per far scorrere le immagini" width="500" hspace="0" border="5" ></image>
+	<image id="immagine" align="middle" src="immagini/immaginiCheScorrono/Immagine1.jpg" alt="AVVIARE RIPRODUZIONE IMMAGINI: Usare le Frecce per far scorrere le immagini" width="500" hspace="0" border="5" ></image>
  <button class="freccette" onclick="destra()" OnMouseOver=" this.innerHTML = '→' " OnMouseOut=" this.innerHTML = '>' " style="margin-left: 0;"> > </button>
 
 <blockquote>
-	<p>
+	<p id="cit">
+
 		 There are no passengers, just crew  <br>
 
 		<cite> Greenpeace Team </cite>
